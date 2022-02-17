@@ -1,0 +1,75 @@
+.box{
+ width: 100%;
+ height: 100%; 
+}
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+    width: auto;
+    height: 20mm;
+    background-color: aqua;
+}
+.left{
+    text-align: left;
+    text-transform: capitalize;
+    width: 20%;
+    height: 80%;
+    background-color: burlywood;
+    float: left;
+    opacity: 0.5;
+}
+.left:hover{
+    opacity: 1;
+}
+.content{
+    width: 60%;
+    height: 80%;
+    float: left;
+}
+.right{
+    text-align: right;
+    text-transform: capitalize;
+    width: 20%;
+    height: 80%;
+    background-color: burlywood;
+    float: left;
+    opacity: 0.5;
+}
+.right:hover{
+    opacity: 1;
+}
+.foot{
+    text-align: center;
+    text-transform: capitalize;
+    height: 20mm;
+    width: 100%;
+    background-color: aqua;
+    float: left;
+
+}
+.header-content{
+    text-align: center;
+    padding: 8mm;
+}
+td,th{
+    border: 1px solid black;
+    border-radius: 5mm;
+}
+.table1{
+    width: 100%;
+    border: 2mm solid burlywood;
+    border-radius: 5mm;
+}
+.table-content{
+    color: red;
+    text-align: center;
+}
+.th{
+    color: black;
+}
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+}
