@@ -38,15 +38,7 @@
 .right:hover{
     opacity: 1;
 }
-.foot{
-    text-align: center;
-    text-transform: capitalize;
-    height: 20mm;
-    width: 100%;
-    background-color: aqua;
-    float: left;
 
-}
 .header-content{
     text-align: center;
     padding: 8mm;
@@ -72,4 +64,12 @@ img{
 }
 img:hover{
     opacity: 1;
+}
+.foot{
+    text-align: center;
+    text-transform: capitalize;
+    height: 20mm;
+    width: 100%;
+    background-color: aqua;
+    float: left;
 }
