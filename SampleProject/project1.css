@@ -1,0 +1,129 @@
+html body{
+    font-family: sans-serif;
+}
+.head{
+    background-color: white;
+    padding: 20px;
+    font-size: medium;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    box-shadow:  0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left_menu{
+    text-align: center;
+    list-style: none;
+}
+.right_menu{
+    
+    text-align: center;
+    list-style: none;
+}
+.right_menu img{
+    height: 20px;
+    width: 20px;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.container a:hover{
+    color: green;
+}
+.container ul{
+    display: flex;
+    text-align: center;
+}
+.container li{
+    margin:0 10px;
+}
+.container .left{
+    flex: 1;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  background: none;
+  border: 1px #000 solid;
+  border-radius: 50px;
+  padding: 7px 16px;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  text-transform: ;
+}
+
+.btn-dark-outline {
+  border-color: #000;
+  color: #000;
+}
+
+.btn-dark-outline:hover,
+.btn-light-outline:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.btn-light-outline {
+  border-color: #fff;
+  color: #fff;
+}
+.btn-light-outline {
+    border-color: #fff;
+    color: #fff;
+  }
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+}
+
+.box {
+    margin-bottom: 30px;
+  }
+.box-text{
+    background-color: #1e3932;
+    max-width: 1440px;
+    text-align: center;
+    justify-self: center;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.box-inner {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-xl {
+    font-size: 50px;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .text-md{
+      font-size: 25px;
+      color: white;
+  }
