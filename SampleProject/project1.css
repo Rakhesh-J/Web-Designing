@@ -65,7 +65,7 @@ html body{
   line-height: 1.2;
   text-align: center;
   text-decoration: none;
-  text-transform: ;
+  
 }
 
 .btn-dark-outline {
@@ -97,13 +97,22 @@ html body{
 }
 
 .box {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
+  height: 25%;
+  width: 100%;
+  }
+.box-b{
+  height: ;
+  width: ;
+}
+.box-inner {
+    max-width: 700px;
+    margin: 0 auto;
   }
 .box-text{
     background-color: #1e3932;
-    max-width: 1440px;
     text-align: center;
-    justify-self: center;
+    justify-content: center;
     padding: 20px 0;
     margin: 0 auto;
 }
@@ -111,11 +120,18 @@ html body{
     max-width: 700px;
     margin: 0 auto;
   }
-  .text-center {
-    text-align: center;
-  }
+.grid-col-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.grid-reversed :first-child {
+  order: 2;
+.text-center {
+      text-align: center;
+ }
   
-  .text-xl {
+.text-xl {
     font-size: 50px;
     text-transform: capitalize;
     letter-spacing: 6px;
@@ -123,7 +139,7 @@ html body{
     margin-bottom: 20px;
     color: white;
   }
-  .text-md{
+.text-md{
       font-size: 25px;
       color: white;
   }
