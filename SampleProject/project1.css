@@ -200,11 +200,11 @@ html body{
   .foot-logo a img{
     height: 40px;
     width: 40px;
-    justify-content: space-between;
     
   }
-  .foot-logo a{
-    list-style: none;
+  .footer .logos .foot-logo a{
+    text-decoration: none;
+    padding-right: 15px;
   }
   .foot-links .links{
     list-style: none;
