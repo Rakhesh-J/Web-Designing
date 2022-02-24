@@ -148,6 +148,7 @@ html body{
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  justify-content: space-between;
 
 }
 .box .box-text h1 h2 p{
@@ -226,6 +227,22 @@ html body{
     padding-top: 10px;
     padding-bottom: 20px;
   }
-  @media screen {
-    
+  @media screen and (max-width:480px) {
+    .text-xl{
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    margin: 10px 10px;
+    color: black;
+    }
+    .footer{
+      
+    }
+  }
+  @media screen and(min-width:1440px){
+    .box{
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
