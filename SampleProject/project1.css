@@ -8,8 +8,11 @@
   background-color: #d5e8e4fc;
   color: #1e3932;
 }
-html body{
+html {
     font-family: sans-serif;
+}
+body{
+  margin: 0;
 }
 .head{
     background-color: white;
@@ -151,9 +154,6 @@ html body{
   justify-content: space-between;
 
 }
-.box .box-text h1 h2 p{
- color: #1e3932;
-}
 .text-center {
       text-align: center;
  }
@@ -168,6 +168,12 @@ html body{
     color: white;
     font-weight: bold;
   }
+  .text-dark{
+    color: #1e3932;
+  }
+  .box .box-text .text-dark{
+    color: #1e3932;
+  }
 .text-md{
       font-size: 25px;
       color: white;
@@ -175,6 +181,9 @@ html body{
   .text-sm{
     font-size: 19px;
     line-height: 35px;
+  }
+  .contents{
+    box-shadow: 0 1px #888888;
   }
   .discription{
     padding: 10px;
@@ -184,13 +193,16 @@ html body{
     line-height: 25px;
   }
   .table-div{
-    padding-left: 30px;
+    margin: 30px;
+
   }
   .table-1{
     width: 100%;
-    line-height: 30px;
+    line-height: 50px;
     text-align: left;
     text-decoration: none;
+    box-shadow: 0 1px #888888;
+    padding-bottom: 30px;
   }
   .t-cont a{
     color: #8f8c8c;
@@ -199,13 +211,15 @@ html body{
     color: black;
   }
   .foot-logo a img{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
+    padding-bottom: 20px;
     
   }
   .footer .logos .foot-logo a{
     text-decoration: none;
     padding-right: 15px;
+    padding-bottom: 30px;
   }
   .foot-links .links{
     list-style: none;
@@ -216,16 +230,24 @@ html body{
   .foot-links .links li{
     margin-left: 30px;
   }
+  .foot-links .links a{
+    text-decoration: none;
+    color: black;
+  }
+  .foot-links .links a:hover{
+    text-decoration: underline;
+    color: black;
+  }
   .table-1 a{
     text-decoration: none;
   }
   .copyright{
     color: #8f8c8c; 
-    font-size: 15px; 
+    font-size: 14px; 
     letter-spacing: 0.5px; 
     margin-left: 30px;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
   @media screen and (max-width:480px) {
     .text-xl{
@@ -235,13 +257,19 @@ html body{
     margin: 10px 10px;
     color: black;
     }
-    .footer{
-      
+    .grid-col-2{
+      display: flex;
+      grid-template-columns: 1fr;
+    }
+    .content{
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   @media screen and(min-width:1440px){
-    .box{
-      max-width: 1440px;
+    .content{
+      max-width: 1000px;
       margin-left: auto;
       margin-right: auto;
     }
